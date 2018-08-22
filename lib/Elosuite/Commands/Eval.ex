@@ -18,7 +18,7 @@ defmodule Elosuite.Commands.Eval do
       |> Code.eval_string(binding, __ENV__)
       |> elem(0)
       |> (fn result ->
-        Message.react(message, "✔️")
+        Message.react(message, "✅")
         Message.reply(
           message,
           embed: buildSuccessEmbed(
