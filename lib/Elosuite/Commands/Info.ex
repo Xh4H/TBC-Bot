@@ -1,6 +1,6 @@
-defmodule Elosuite.Commands.Info do
+defmodule TBC.Commands.Info do
   alias Coxir.Struct.{User, Guild, Member, Channel, Message}
-  import Elosuite.Helpers
+  import TBC.Helpers
 
   def exec() do
     project = Coxir.Mixfile.project()
