@@ -1,4 +1,4 @@
-defmodule Elosuite.Commands.Ban do
+defmodule TBC.Commands.Ban do
   alias Coxir.Struct.Member
   import Elosuite.Helpers
 

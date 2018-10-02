@@ -1,6 +1,6 @@
-defmodule Elosuite.Commands.Kick do
+defmodule TBC.Commands.Kick do
   alias Coxir.Struct.Member
-  import Elosuite.Helpers
+  import TBC.Helpers
 
   def exec(member, by, guild, reason) do
     member = Member.get(guild, member)
