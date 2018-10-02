@@ -1,6 +1,6 @@
-defmodule Elosuite.Commands.Eval do
+defmodule TBC.Commands.Eval do
   alias Coxir.Struct.{User, Channel, Message}
-  import Elosuite.Helpers
+  import TBC.Helpers
 
   def exec(message, channel, string) do
     binding = [
