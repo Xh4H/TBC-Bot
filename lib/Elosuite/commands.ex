@@ -95,12 +95,4 @@ defmodule TBC.Commands do
     |> Voice.stop_playing
   end
 
-  # COOKIE EAT COMMAND
-  @space :cookie
-  command eat do
-    mention = "<@#{author.id}>"
-    content = "here, have a :cookie: #{mention}"
-    Message.reply(message, content)
-  end
-
 end
