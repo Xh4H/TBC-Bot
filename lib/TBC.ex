@@ -3,7 +3,8 @@ defmodule Elosuite do
   use Supervisor
 
   require HTTPotion
-  alias Elosuite.Consumer
+  
+  alias TBC.Consumer
 
   def start(_type, _args) do
     children = [
