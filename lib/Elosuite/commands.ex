@@ -1,7 +1,7 @@
-defmodule Elosuite.Commands do
+defmodule TBC.Commands do
   use Coxir.Commander
-  import Elosuite.Helpers
-  alias Elosuite.Commands.{Kick, Ban, Info, Eval}
+  import TBC.Helpers
+  alias TBC.Commands.{Kick, Ban, Info, Eval}
   @prefix "<"
 
   # KICK COMMAND
