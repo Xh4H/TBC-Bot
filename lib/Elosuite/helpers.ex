@@ -1,4 +1,4 @@
-defmodule Elosuite.Helpers do
+defmodule TBC.Helpers do
   def admin?(user, _channel) do
     user.id in [
       "191442101135867906"
